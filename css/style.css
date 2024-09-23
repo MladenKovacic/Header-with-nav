@@ -1,11 +1,14 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;   
 font-size: 20px;
+font-weight: 1000;
+
 }
 
 .main-header {
@@ -16,11 +19,18 @@ font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    text-decoration: none;
 }
-
-.list-item {
+a {
+    color: black;
+}
+ a:link{
+    text-decoration: none;
+ }
+ a:hover{
     text-decoration: underline;
+ }
+.list-item {
+    text-decoration: none;
     display: inline-block;
     padding: 10px;
 }
